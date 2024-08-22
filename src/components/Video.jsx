@@ -1,25 +1,25 @@
 import "../styles/video.css"
-import thumbnail1 from "../assets/thumbnail-1.webp"
-import channel1 from "../assets/channel-1.jpeg"
+import coveredPic1 from "../assets/pretty_slowly.jpg"
+import videoProfilePic from "../assets/channels4_profile.jpg"
 
 function Video() {
     return (
         <>
             <div className="video-preview">
                 <div className="covered-row">
-                    <img className="covered-pic" src={thumbnail1} />
+                    <img className="covered-pic" src={coveredPic1} />
                     <div className="video-time">
-                        14:20
+                        4:21
                     </div>
                 </div>
                 <div className="video-info-grid">
                     <div>
-                        <img className="profile-pic" src={channel1} />
+                        <img className="profile-pic" src={videoProfilePic} />
                     </div>
                     <div className="video-info">
-                        <p className="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
-                        <p className="video-author">Marques Brownlee</p>
-                        <p className="video-stats">3.4M views &#183; 6 months ago</p>
+                        <p className="video-title">Benson Boone - Pretty Slowly (Official Music Video)</p>
+                        <p className="video-author">Benson Boone</p>
+                        <p className="video-stats">701K views &#183; 6 days ago</p>
                     </div>
                 </div>
             </div>

@@ -1,6 +1,6 @@
 import "../styles/header.css"
 import hamburgerMenu from "../assets/icons/hamburger-menu.svg"
-import youtubeLogo from "../assets/icons/youtube-logo.svg"
+import youtubeLogo from "../assets/icons/YouTube_Premium_logo.svg"
 import searchIcon from "../assets/icons/search.svg"
 import voiceSearchIcon from "../assets/icons/voice-search-icon.svg"
 import uploadIcon from "../assets/icons/upload.svg"
