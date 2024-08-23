@@ -1,11 +1,11 @@
 import "../styles/header.css"
-import hamburgerMenu from "../assets/icons/hamburger-menu.svg"
-import youtubeLogo from "../assets/icons/YouTube_Premium_logo.svg"
-import searchIcon from "../assets/icons/search.svg"
-import voiceSearchIcon from "../assets/icons/voice-search-icon.svg"
-import uploadIcon from "../assets/icons/upload.svg"
-import notificationIcon from "../assets/icons/notifications.svg"
-import channel1 from "../assets/user_picture.jpg"
+import hamburgerMenu from "../assets/icons/header/hamburger-menu.svg"
+import youtubeLogo from "../assets/icons/header/YouTube_Premium_logo.svg"
+import searchIcon from "../assets/icons/header/search.svg"
+import voiceSearchIcon from "../assets/icons/header/voice-search-icon.svg"
+import uploadIcon from "../assets/icons/header/upload.svg"
+import notificationIcon from "../assets/icons/header/notifications.svg"
+import userPicture from "../assets/image/user_picture.jpg"
 
 function Header() {
     return (
@@ -38,7 +38,7 @@ function Header() {
                         <img className="notification-icon" src={notificationIcon} />
                         <div className="notification-count">9+</div>
                     </div>
-                    <img className="user-picture" src={channel1} />
+                    <img className="user-picture" src={userPicture} />
                 </div>
             </div>
         </>

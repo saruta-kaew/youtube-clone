@@ -1,6 +1,6 @@
 import "../styles/video.css"
-import coveredPic1 from "../assets/pretty_slowly.jpg"
-import videoProfilePic from "../assets/channels4_profile.jpg"
+import coveredPic1 from "../assets/image/pretty_slowly.jpg"
+import videoProfilePic from "../assets/image/channels4_profile.jpg"
 
 function Video() {
     return (
