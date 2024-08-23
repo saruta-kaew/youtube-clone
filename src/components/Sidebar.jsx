@@ -22,6 +22,7 @@ import settingIcon from "../assets/icons/sidebar/setting.svg"
 import reportHistoryIcon from "../assets/icons/sidebar/report-history.svg"
 import helpIcon from "../assets/icons/sidebar/help.svg"
 import feedbackIcon from "../assets/icons/sidebar/feedback.svg"
+import allSubscriptionIcon from "../assets/icons/sidebar/all-subscription.svg"
 
 function Sidebar() {
     return (
@@ -79,6 +80,10 @@ function Sidebar() {
                 </div>
                 <div className="sidebar-box">
                     <div className="sidebar-menu-topic">Subscriptions</div>
+                    <button className="sidebar-menu-button">
+                        <img src={allSubscriptionIcon} />
+                        <div>All subscriptions</div>
+                    </button>
                 </div>
                 <div className="sidebar-box">
                     <div className="sidebar-menu-topic">Explore</div>
