@@ -3,6 +3,7 @@ import homeIcon from "../assets/icons/home.svg"
 import subscriptionIcon from "../assets/icons/subscriptions.svg"
 import youtubeMusicIcon from "../assets/icons/youtube-music.svg"
 import youtubeMusicIcon2 from "../assets/icons/youtube-music-2.svg"
+import history from "../assets/icons/history.svg"
 
 function Sidebar() {
     return (
@@ -33,7 +34,7 @@ function Sidebar() {
                         <div>Your channel</div>
                     </button>
                     <button className="sidebar-menu-button">
-                        <img src={youtubeMusicIcon} />
+                        <img src={history} />
                         <div>History</div>
                     </button>
                     <button className="sidebar-menu-button">
