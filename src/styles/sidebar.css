@@ -2,33 +2,59 @@
     position: fixed;
     left: 0;
     bottom: 0;
-    top: 55px;
+    top: 65px;
     background-color: white;
-    width: 72px;
+    width: 220px;
     z-index: 200;
     padding-top: 5px;
+    padding-left: 20px;
+    font-family: Roboto, Arial;
+    overflow: hidden;
 }
 
-.sidebar-link {
-    height: 74px;
+.sidebar:hover {
+    overflow-y: scroll;
+}
+
+.sidebar-box {
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
-    cursor: pointer;
+    border-style: solid;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-width: 1px;
+    border-color: rgb(230, 230, 230);
+    padding-bottom: 18px;
 }
 
-.sidebar-link:hover {
-    background-color: rgb(235, 235, 235);
+.sidebar-menu-topic {
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-bottom: 12px;
+    font-size: 16px;
+    font-weight: 500;
 }
 
-.sidebar-link img {
+.sidebar-menu-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 22px;
+    background-color: white;
+    border-width: 0;
+    line-height: 37px;
+    color: rgb(50, 50, 50);
+    font-size: 14px;
+}
+
+.sidebar-menu-button:hover {
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+}
+
+.sidebar-box img {
     height: 24px;
     margin-bottom: 3px;
-
-}
-
-.sidebar-link div {
-    font-family: Roboto, Arial;
-    font-size: 10px;
 }
