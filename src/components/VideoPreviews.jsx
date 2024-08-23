@@ -17,7 +17,6 @@ function VideoPreviews() {
                 <Video />
                 <Video />
                 <Video />
-                <Video />
             </div>
         </>
     )
