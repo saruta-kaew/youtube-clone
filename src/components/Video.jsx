@@ -19,7 +19,7 @@ function Video() {
                     <div className="video-info">
                         <p className="video-title">Benson Boone - Pretty Slowly (Official Music Video)</p>
                         <p className="video-author">Benson Boone</p>
-                        <p className="video-stats">701K views &#183; 6 days ago</p>
+                        <p className="video-stats">1M views &#183; 10 days ago</p>
                     </div>
                 </div>
             </div>
